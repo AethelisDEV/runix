@@ -3,3 +3,5 @@
 *.dts diff=dts
 *.dts[io] diff=dts
 *.rs diff=rust
+*.c linguist-vendored
+*.h linguist-vendored
