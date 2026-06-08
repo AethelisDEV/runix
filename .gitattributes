@@ -5,3 +5,6 @@
 *.rs diff=rust
 *.c linguist-vendored
 *.h linguist-vendored
+*.S linguist-vendored
+*.s linguist-vendored
+*.sh linguist-vendored
