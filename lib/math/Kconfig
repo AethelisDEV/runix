@@ -6,7 +6,7 @@ config CORDIC
 	  calculations are in fixed point. Module will be called cordic.
 
 config POLYNOMIAL
-       tristate
+       tristate "Polynomial arithmetic support"
 
 config PRIME_NUMBERS
 	tristate "Simple prime number generator for testing"

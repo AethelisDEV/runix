@@ -5,9 +5,9 @@ ifneq ($(CONFIG_RUST),y)
 obj-y += gcd.o lcm.o int_pow.o int_sqrt.o reciprocal_div.o int_log.o
 obj-$(CONFIG_RATIONAL)		+= rational.o
 obj-$(CONFIG_CORDIC)		+= cordic.o
+obj-$(CONFIG_POLYNOMIAL)	+= polynomial.o
 endif
 
-obj-$(CONFIG_POLYNOMIAL)	+= polynomial.o
 obj-$(CONFIG_PRIME_NUMBERS)	+= prime_numbers.o
 
 obj-$(CONFIG_TEST_DIV64)	+= test_div64.o

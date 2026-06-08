@@ -10,6 +10,7 @@ pub mod reciprocal;
 pub mod rational;
 pub mod int_log;
 pub mod cordic;
+pub mod polynomial;
 
 // Re-export symbols at the module root to maintain API & ABI compatibility.
 pub use gcd::gcd;
@@ -22,3 +23,4 @@ pub use reciprocal::{reciprocal_value, reciprocal_value_adv};
 pub use rational::rational_best_approximation;
 pub use int_log::{intlog2, intlog10};
 pub use cordic::cordic_calc_iq;
+pub use polynomial::polynomial_calc;
